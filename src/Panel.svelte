@@ -1,5 +1,6 @@
 <script>
   import Graph from './Graph.svelte';
+  import Stats from './Stats.svelte';
   import Timer from "./Timer.svelte";
   import Button from "./Button.svelte";
 </script>
@@ -42,6 +43,7 @@
 <div class="panel">
   <div class="stat-panel">
     <Graph />
+    <Stats />
     <Timer />
   </div>
   <div class="button-panel">
